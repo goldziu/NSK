@@ -9,3 +9,8 @@ Następnie wysłanie obu macierzy do serwera, po czym otrzymanie od serwera maci
 
 Rola serwera to otrzymanie od klienta rozmiaru macierzy kwadratowych, obu macierzy do wymnożenia
 a następnie wymnożenia ich oraz wysłania do klienta macierzy wynikowej.
+
+
+Dodano wersję z obsługą wątków. Biblioteka wątków POSIX, określana jako pthread.
+klient_pthread.c
+server_pthread.c
